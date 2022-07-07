@@ -1,0 +1,100 @@
+body{
+    background-color: #1e6262 ;
+    color: bisque;
+}
+
+#BG{
+    width: auto;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/5973043/pexels-photo-5973043.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#words{
+    border: greenyellow;
+    border-style: solid;
+    width: 50%;
+    margin-bottom: auto;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5rem;
+    text-align: center;
+    background-color: #2d454f74 ;
+    
+}
+
+#caresolBG{
+    border: greenyellow;
+    border-style: solid;
+    width: 70%;
+    height: 60%;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5rem;
+    text-align: center;
+    background-color: #2d454f74 ;
+    
+
+}
+
+.slide{
+    width: 100%;
+    height: 85%;
+    
+
+    transition: all 0.5s; 
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+figcaption{
+    margin-top: 0;
+    font-size: 32px;
+}
+
+#caresol{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    margin-top:0%;
+    margin-bottom: auto;
+}
+.btn {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #ffffff85;
+    font-size: 18px;
+  }
+
+  #nextBtn{
+    position: relative;
+    right: 8%;
+    margin-right: auto;
+    margin-left: 0;
+    z-index: 10;
+  }
+  #prevBtn{
+    position: relative;
+    left: 8%;
+    margin-right: 0;
+    margin-left: auto;
+    z-index: 10;
+  }
